@@ -8,6 +8,7 @@ const FormManager = Object.create(null, {
     renderEntryForm: {
         value: () => {
             return `
+            <div class="border">
                 <fieldset>
                     <label for="entryTitle">Title:</label>
                     <input required type="text" id="entryTitle">
@@ -16,7 +17,8 @@ const FormManager = Object.create(null, {
                     <label for="entryContent">Deep Thoughts:</label>
                     <textarea id="entryContent"></textarea>
                 </fieldset>
-                <button id="saveEntryButton">Save Journal Entry</button>
+                <button id="saveEntryButton" class="bg-success text-white">Save Journal Entry</button>
+            </div>
             `
         }
     }

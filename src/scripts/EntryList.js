@@ -1,5 +1,6 @@
 const createEntry = require("./Entry")
 const APIObject = require("./DataManager")
+const $ = require("jquery")
 
 
 
